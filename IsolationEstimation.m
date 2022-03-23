@@ -23,3 +23,4 @@ for k = 1:Forest.NumTree
     Mass(:, k) = IsolationMass(TestData, 1:NumInst, Forest.Trees{k, 1}, zeros(NumInst, 1));
 end
 ElapseTime = cputime - et;
+
